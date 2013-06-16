@@ -8,7 +8,7 @@ categories: git haxx
 {% tldr %}
   run the following command if you rather do things the pragmatic way:
   {% highlight bash %}
-    \curl -L https://raw.github.com/Dglgmut/kapok/_raw/gitfriend | bash
+    \curl -L https://raw.github.com/Dglgmut/kapok/master/_raw/gitfriend | bash
   {% endhighlight %}
 {% endtldr %}
 
