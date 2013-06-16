@@ -5,10 +5,10 @@ date:   2013-06-17 00:12:34
 categories: git haxx
 ---
 <div class='tldr'><p>TL;DR</p>
-  <div class='tldrcontent' >
+  <div class='tldrcontent'>
     run the following command if you rather do things the pragmatic way:
     {% highlight bash %}
-      \curl -L https://raw.github.com/Dglgmut/kapok/master/_raw/gitfriend | bash
+      \curl -L https://raw.github.com/kapok/kapok.github.io/master/_raw/gitfriend | bash
     {% endhighlight %}
   </div>
 </div>
