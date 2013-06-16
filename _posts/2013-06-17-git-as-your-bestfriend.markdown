@@ -4,6 +4,14 @@ title:  "Git As Your Best Friend"
 date:   2013-06-17 00:12:34
 categories: git haxx
 ---
+
+{% tldr %}
+  run the following command if you rather do things the pragmatic way:
+  {% highlight bash %}
+    \curl -L https://raw.github.com/Dglgmut/kapok/master/_raw/gitfriend | bash
+  {% endhighlight %}
+{% endtldr %}
+
 First we should enable git colors
 {% highlight bash %}
   git config --global color.ui true
