@@ -8,7 +8,7 @@ categories: git haxx
 I just finished the awesome git course [@codeschool][cs],
 here are some tricks that I didnt knew;
 
-Have you ever forgot to add some file to your previous commit?
+Have you ever forgotten to add some file to your previous commit?
 Or Just want to re-write the commit message, 
 `--amend` is just what you need!
 {% highlight bash %}
