@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Cool Git Commands</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+        <script>
+          $(document).ready(function(){
+            el = $($('.tldr').find('.tldrcontent'))
+            el.hide();
+            el.parent().parent().click(function(){
+              if(!(el.is(':visible')))
+                 el.fadeIn();
+            });
+          });
+        </script>
+    </head>
+    <body style="background:#CCA069">
+
+        <div class="container">
+          <div class="site">
+            <div class="header">
+            </div>
+
+                <h2>Cool Git Commands</h2>
+<p class="meta">15 Jun 2013</p>
+
+<div class="post">
+<p>I just finished the awesome git course <a href='http://codeschool.com'>@codeschool</a>, here are some tricks that I didnt knew;</p>
+
+<p>Have you ever forgot to add some file to your previous commit? Or Just want to re-write the commit message, <code>--amend</code> is just what you need!</p>
+<div class='highlight'><pre><code class='bash'>  git commit --amend
+</code></pre></div>
+<p>Let&#8217;s assume you are just done with some remote branch, and you want to remove them from your origin or any other remote repository</p>
+<div class='highlight'><pre><code class='bash'>  git push remote_name :branch
+</code></pre></div>
+<p>Now if you want git to forget about the deleted remote branches you will need to:</p>
+<div class='highlight'><pre><code class='bash'>  git remote prune origin
+</code></pre></div>
+<p>Let&#8217;s say you dont have any git GUI program, and you want to call git log with some graph visualization</p>
+<div class='highlight'><pre><code class='bash'>  git log --oneline --graph
+</code></pre></div>
+<p>Wanna know when and who wrote that awfull code at a specific file?</p>
+<div class='highlight'><pre><code class='bash'>  git blame file --date short
+</code></pre></div>
+<p>Want to get the diff for multiple commits?</p>
+<div class='highlight'><pre><code class='bash'>  git diff head~2 head
+</code></pre></div>
+</div>
+
+
+            <div class="footer">
+              <div class="contact">
+                <p>
+                <a href="https://github.com/dglgmut" style="text-decoration:none;"><i>&lt;Dglgmut&gt;</i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /container -->
+
+    </body>
+</html>
